@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.1.0",
+  "description": "This is the backend of maxshop web application ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shovoodev/maxshop-ecommerce.git"
+  },
+  "author": "Toukir islam Shovo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shovoodev/maxshop-ecommerce/issues"
+  },
+  "homepage": "https://github.com/Shovoodev/maxshop-ecommerce#readme"
+}

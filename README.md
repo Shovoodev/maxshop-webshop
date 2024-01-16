@@ -1,0 +1,1 @@
+maxshop is a ecommerce full functionalized web application . using react , bootstrap , 
