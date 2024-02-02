@@ -1,15 +1,15 @@
 
 import { useEffect ,useState } from 'react';
 import { Row , Col } from 'react-bootstrap'
-import Products from '../components/Products.jsx';
+import Products from '../components/Products'
 import Axios from 'axios'
 
 const Homescreen = () => {
   const [product , setProduct] = useState([])
-
   useEffect(()=> {
     const fetchProducts = async () => {
-      const {data} = await Axios.get('/api/products')
+      const {data} = await Axios.get('api/products')
+      console.log(data)
       setProduct(data)
     }
     fetchProducts();
